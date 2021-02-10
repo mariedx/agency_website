@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ThemeChoice from '../ThemeChoice';
 
 const Navbar = () => (
   <div className="Navbar">
@@ -8,6 +9,8 @@ const Navbar = () => (
     <Link to="/about">L&apos;agence</Link>
     {' '}
     <Link to="/works">Projets</Link>
+    {' '}
+    <ThemeChoice />
   </div>
 );
 
