@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ThemeChoice from '../ThemeChoice';
+import './index.scss';
 
 const Navbar = () => (
   <div className="Navbar">

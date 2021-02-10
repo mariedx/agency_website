@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Agency from './pages/Agency';
-import Projects from './pages/Projects';
+import About from './pages/About';
+import Works from './pages/Work';
 import Navbar from './components/Navbar';
-import ThemeContext from './components/ThemeContext';
-import './shared.scss';
+import ThemeContext from './components/ThemeContext'; import './shared.scss';
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -27,10 +26,10 @@ const App = () => {
                 <Home />
               </Route>
               <Route path="/about">
-                <Agency />
+                <About />
               </Route>
               <Route path="/works">
-                <Projects />
+                <Works />
               </Route>
             </Switch>
           </main>
