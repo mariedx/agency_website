@@ -10,7 +10,6 @@ html, body {
   transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
   color: #eee;
   height: 100vh;
-  padding-left: 15px;
 
   a {
     color: #bcabcc;
@@ -20,14 +19,12 @@ html, body {
 .light {
   font-family: sans-serif;
   color: #333;
-  padding-left: 15px;
   background-color: whitesmoke;
   height: 100vh;
   transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
 }
 
 @mixin TextPages {
-  padding-top: 2%;
   text-align: center;
   h2 {
     padding: 1rem 20%;
