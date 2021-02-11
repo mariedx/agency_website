@@ -6,7 +6,7 @@ import './index.scss';
 const NavWork = () => (
   <nav>
     <div className="NavWork">
-      {works.map((work) => (<Link to={`/works/${work.slug}`} key={work.slug}>{work.slug}</Link>))}
+      {works.map((work) => (<Link to={`/works/${work.slug}`} key={work.slug}>{work.title}</Link>))}
     </div>
   </nav>
 );

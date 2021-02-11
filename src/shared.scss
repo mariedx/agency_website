@@ -7,6 +7,7 @@ html, body {
 .dark {
   font-family: sans-serif;
   background-color: #333;
+  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
   color: #eee;
   height: 100vh;
   padding-left: 15px;
@@ -20,18 +21,19 @@ html, body {
   font-family: sans-serif;
   color: #333;
   padding-left: 15px;
+  background-color: whitesmoke;
+  height: 100vh;
+  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
 }
 
 @mixin TextPages {
-  margin-top: 3%;
+  padding-top: 2%;
   text-align: center;
-
   h2 {
     padding: 1rem 20%;
   }
-  
   p {
-    padding: 0.5rem 25%;
+    padding: 0.5rem 20%;
     line-height: 1.9;
   }
 }

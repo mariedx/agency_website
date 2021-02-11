@@ -17,9 +17,9 @@ const App = () => {
 
   return (
     <ThemeContext.Provider value={contextValue}>
-      <div className={theme}>
-        <Router>
-          <Navbar />
+      <Router>
+        <Navbar />
+        <div className={theme}>
           <main>
             <Switch>
               <Route path="/" exact>
@@ -33,8 +33,8 @@ const App = () => {
               </Route>
             </Switch>
           </main>
-        </Router>
-      </div>
+        </div>
+      </Router>
     </ThemeContext.Provider>
   );
 };

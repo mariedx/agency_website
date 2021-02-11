@@ -19,7 +19,7 @@ const StudyCase = () => {
       )}
       {currentWork && (
         <>
-          <h3>{currentWork.title}</h3>
+          <h3>{currentWork.subtitle}</h3>
           <p>{currentWork.description}</p>
         </>
       )}
