@@ -5,13 +5,10 @@
 }
 
 #image-home {
-  width: 100%;
-  height: 300px;
-  background-attachment: fixed;
-  background-position-y: 85%;
-  background-repeat: no-repeat;
+  position: relative;
+  height: 360px;
+  overflow: hidden;
   background-size: cover;
-  background-color: royalblue;
-  background-blend-mode: screen;
-  background-image: url("https://images.pexels.com/photos/3137058/pexels-photo-3137058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position-y: 40%;
+  background-image: url("https://images.unsplash.com/photo-1516638022313-53fa45a84c7f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
 }

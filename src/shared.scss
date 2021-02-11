@@ -6,10 +6,15 @@ html, body {
 
 .dark {
   font-family: sans-serif;
+  color: #eee;
   background-color: #333;
   transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
-  color: #eee;
-  height: 100vh;
+  min-height: 100vh;
+
+  #image-home, #image-about {
+    background-color: rebeccapurple;
+    background-blend-mode: difference;
+  }
 
   a {
     color: #bcabcc;
@@ -19,14 +24,14 @@ html, body {
 .light {
   font-family: sans-serif;
   color: #333;
-  background-color: whitesmoke;
-  height: 100vh;
+  background-color: white;
   transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
 }
 
 @mixin TextPages {
   text-align: center;
-  h2 {
+  padding-bottom: 6%;
+  h2, h3 {
     padding: 1rem 20%;
   }
   p {

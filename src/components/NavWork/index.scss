@@ -1,5 +1,5 @@
 .NavWork {
-  padding: 3rem 25%;
+  padding: 1rem 25%;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
@@ -9,6 +9,11 @@
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.5em;
-    font-weight: lighter;;
+    font-weight: lighter;
+  }
+
+  a:hover {
+    color: plum;
+    font-weight: normal;;
   }
 }

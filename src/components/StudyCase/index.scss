@@ -2,5 +2,13 @@
 
 .StudyCase {
   @include TextPages;
-  padding: 1rem 15%; 
+  padding: 0 15%;   
+
+  img {
+    width: 500px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10%;
+  }
 }

@@ -21,6 +21,7 @@ const StudyCase = () => {
         <>
           <h3>{currentWork.subtitle}</h3>
           <p>{currentWork.description}</p>
+          <img src={currentWork.image} alt="works" />
         </>
       )}
     </div>
