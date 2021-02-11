@@ -9,11 +9,29 @@ html, body {
   background-color: #333;
   color: #eee;
   height: 100vh;
-  padding-left: 15px;;
+  padding-left: 15px;
+
+  a {
+    color: #bcabcc;
+  }
 }
 
 .light {
   font-family: sans-serif;
   color: #333;
-  padding-left: 15px;;
+  padding-left: 15px;
+}
+
+@mixin TextPages {
+  margin-top: 3%;
+  text-align: center;
+
+  h2 {
+    padding: 1rem 20%;
+  }
+  
+  p {
+    padding: 0.5rem 25%;
+    line-height: 1.9;
+  }
 }

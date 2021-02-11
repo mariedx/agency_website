@@ -1,6 +1,7 @@
 import { useState, useEffect, React } from 'react';
 import { useParams } from 'react-router-dom';
 import works from '../../data/works';
+import './index.scss';
 
 const StudyCase = () => {
   const { workSlug } = useParams();
@@ -18,7 +19,7 @@ const StudyCase = () => {
       )}
       {currentWork && (
         <>
-          <h1>{currentWork.title}</h1>
+          <h3>{currentWork.title}</h3>
           <p>{currentWork.description}</p>
         </>
       )}

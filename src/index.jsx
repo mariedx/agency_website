@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import Works from './pages/Work';
+import Works from './pages/Works';
 import Navbar from './components/Navbar';
 import ThemeContext from './components/ThemeContext'; import './shared.scss';
 

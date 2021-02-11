@@ -1,0 +1,6 @@
+@import "../../shared.scss";
+
+.StudyCase {
+  @include TextPages;
+  margin-top: 0;
+}

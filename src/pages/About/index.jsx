@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
 import React from 'react';
+import './index.scss';
 
 const About = () => (
   <div className="About">

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import StudyCase from '../../components/StudyCase';
 import NavWork from '../../components/NavWork';
+import './index.scss';
 
 const Works = () => (
   <Router>
