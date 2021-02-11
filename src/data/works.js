@@ -17,7 +17,7 @@ const studycase = [{
   title: 'Solane',
   subtitle: 'Solane est le premier vendeur de fraises du Poitou-Charentes',
   description: "Et c'est grâce à nous. Dans les moments les meilleurs comme les plus durs, nos campagnes de communication sur la place du marché ont fonctionné.",
-  image: 'https://images.unsplash.com/photo-1591271300763-38ab73309351?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80',
+  image: 'https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
 },
 ];
 

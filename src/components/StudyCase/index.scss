@@ -2,7 +2,14 @@
 
 .StudyCase {
   @include TextPages;
-  padding: 0 15%;   
+
+  h3 {
+    padding: 1rem 30%;
+  }
+
+  p {
+    padding: 0.5rem 30%;
+  }
 
   img {
     width: 500px;

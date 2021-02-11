@@ -3,4 +3,17 @@
 .Works {
   @include TextPages;
   padding-bottom: 9px;
+
+  p {
+    padding: 0 20%;
+  }
+}
+
+#image-works {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  background-size: cover;
+  background-position-y: 65%;
+  background-image: url("https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }

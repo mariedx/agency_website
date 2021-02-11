@@ -15,7 +15,7 @@ const StudyCase = () => {
   return (
     <div className="StudyCase">
       {!currentWork && (
-        <p>Pas de projet avec ce slug…</p>
+        <p>Pas de projet avec ce slug sorry…</p>
       )}
       {currentWork && (
         <>
