@@ -16,7 +16,7 @@ const ThemeChoice = () => {
   };
 
   return (
-    <select name="theme" defaultValue={theme} onChange={handleChange}>
+    <select name="theme" value={theme} onChange={handleChange}>
       <option value="dark">🌝</option>
       <option value="light">🌚</option>
     </select>

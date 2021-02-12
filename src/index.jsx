@@ -18,13 +18,14 @@ const App = () => {
   return (
     <ThemeContext.Provider value={contextValue}>
       <div className={theme}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Navbar />
           <main>
             <Switch>
               <Route path="/" exact>
                 <Home />
               </Route>
+              <Route path="/agency_website" exact component={Home} />
               <Route path="/about">
                 <About />
               </Route>
